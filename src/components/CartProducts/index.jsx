@@ -14,7 +14,6 @@ export const CartProducts = ({ currentSale, handleDelete }) => {
               <figcaption className="ProductCart--info">
                 <h4>{name}</h4>
                 <p>{category}</p>
-                <p>quantidade: {qtd}</p>
               </figcaption>
             </figure>
             <button className="btnRemove" onClick={() => handleDelete(index)}>
