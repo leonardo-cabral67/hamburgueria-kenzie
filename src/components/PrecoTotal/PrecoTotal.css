@@ -1,0 +1,49 @@
+.PrecoTotal--container {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 140px;
+
+  border-top: 1px solid #e0e0e0;
+  background-color: #f5f5f5;
+}
+
+.PrecoTotal--preco {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-bottom: 22px;
+  margin-top: 14px;
+}
+
+.PrecoTotal--preco h4,
+.PrecoTotal--preco span,
+.PrecoTotal--container button {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.PrecoTotal--preco h4 {
+  color: #333333;
+}
+
+.PrecoTotal--preco span,
+.PrecoTotal--container button {
+  color: #828282;
+}
+
+.PrecoTotal--container button {
+  background: none;
+  border: none;
+  border-radius: 8px;
+  width: 90%;
+  height: 60px;
+  margin: 0 auto;
+  background-color: #e0e0e0;
+}
+
+.PrecoTotal--container button:hover {
+  background-color: #828282;
+  color: #e0e0e0;
+}
